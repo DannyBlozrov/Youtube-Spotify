@@ -1,7 +1,4 @@
-import requests
 import spotipy
-import time
-import googleapiclient
 from googleapiclient.discovery import build
 #---------------------- youtube API and spotify API links---------------------
 
@@ -66,7 +63,6 @@ if __name__ == '__main__':
         scope = 'playlist-modify-private,playlist-modify-public'
         try:
             youtube=build(serviceName='youtube',version='v3',developerKey=yt_api_key,num_retries=3)
-            time.sleep(1)
         except:
             print("Crashed at youtube build stage")
 
