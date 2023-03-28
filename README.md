@@ -1,3 +1,3 @@
 # Youtube-Spotify
 this code makes a youtube playlist into a spotify playlist
-uses google and spotify API's.
+using google and spotify API's written in python.
